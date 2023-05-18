@@ -25,6 +25,13 @@ function Counter(){
 
 const Wrap = styled.div`
     text-align: center;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    background-color: beige;
+    padding: 20px;
+
+
     .count{
         font-size: 30px;
         margin: 10px;
