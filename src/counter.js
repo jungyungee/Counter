@@ -26,7 +26,8 @@ function Counter(){
 const Wrap = styled.div`
     text-align: center;
     .count{
-        
+        font-size: 30px;
+        margin: 10px;
     };
     .increase{
         background-color: pink;
