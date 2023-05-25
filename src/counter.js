@@ -25,17 +25,22 @@ function Counter(){
 
 const Wrap = styled.div`
     text-align: center;
+    height: 200px;
     width: 60%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px gray;
     background-color: beige;
+    margin: 20px;
     padding: 20px;
 
-
     .count{
-        font-size: 30px;
-        margin: 10px;
+        font-size: 50px;
+        margin: 20px;
     };
+    button{
+        height: 40px;
+        width: 40px;
+    }
     .increase{
         background-color: pink;
     };
